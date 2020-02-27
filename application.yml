@@ -12,4 +12,9 @@ spring:
   profiles: test  #测试环境
   application:
     name: microservicecloud-config-houliu-test
+---
+spring:
+  profiles: prod  #生产环境
+  application:
+    name: microservicecloud-config-houliu-prod
 # 保存为 U8 格式
